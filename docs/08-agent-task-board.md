@@ -19,10 +19,10 @@
 | 窗口 | Agent | 启动时机 | 状态 |
 | --- | --- | --- | --- |
 | `SmartDorm-A1-产品文档` | A1 产品文档 Agent | 需求或答辩材料需要继续细化时 | 待创建 |
-| `SmartDorm-A2-数据库架构` | A2 数据库架构 Agent | 开始 SQLAlchemy、Alembic、种子数据时 | 待创建 |
+| `SmartDorm-A2-数据库架构` | A2 数据库架构 Agent | 开始 SQLAlchemy、Alembic、种子数据时 | 已创建：`019f12ad-8de5-72f1-a518-9c5237b05b11` |
 | `SmartDorm-A3-后端API` | A3 后端 API Agent | 开始 FastAPI 接口、RBAC、测试时 | 待创建 |
 | `SmartDorm-A4-前端UI` | A4 前端 UI Agent | 开始 Vue3 页面、路由、看板和报修流程时 | 待创建 |
-| `SmartDorm-A5-Docker验证` | A5 Docker 验证 Agent | 开始 Docker Compose、Dockerfile、容器验证时 | 待创建 |
+| `SmartDorm-A5-Docker验证` | A5 Docker 验证 Agent | 开始 Docker Compose、Dockerfile、容器验证时 | 已创建：`019f12ad-730c-7781-bca8-9c6c0198c411` |
 
 主线程负责创建或安排这些窗口，并在每个窗口交付 `docs/09-codex-prompts.md` 中对应提示词。子 Agent 不负责最终提交，最终集成、验收和提交由主线程完成。
 
